@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trasplantes Morelos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_donacion">Donacion</string>
+    <string name="title_activity_lugares">Map</string>
+</resources>

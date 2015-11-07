@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.usuario.trasplantesmorelos.Inicio"
+    android:background="#c2d1ff">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/logofon" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/donarb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Por qué donar?"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff0b15"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La donación de sangre es un acto anónimo, solidario y altruista para los demás. El acto de la donación es sencillo, seguro y no duele. Con una donación se pueden salvar tres vidas."
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#e70516"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cada día multitud de pacientes necesitan transfusiones de sangre o derivados para superar una determinada enfermedad u operación. La donación de sangre hace posible los tratamientos para los pacientes con cáncer, transplantes de órganos, intervenciones quirúrgicas, accidentes de tráfico y en muchas otras patologías."
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal"
+            android:textSize="19dp"
+            android:textColor="#e70516" />
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/testis"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Testimonios"
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            android:textColor="#ff2015"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El primer regalo de Navidad De mirada triste y amplia sonrisa, Kimberly de 9 años se sobrepone al trasplante de córnea que se le practicó y con el que ahora puede hacer una vida"
+        android:id="@+id/textView2"
+        android:textColor="#6f0bff"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
